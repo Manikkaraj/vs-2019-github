@@ -32,7 +32,7 @@ namespace vs_2019_github
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello first change commit.");
+                    await context.Response.WriteAsync("Hello second change.");
                 });
             });
         }
